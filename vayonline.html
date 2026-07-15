@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vaytieudung</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#000;
+    color:#fff;
+    line-height:1.6;
+}
+
+header{
+    background:#111;
+    padding:20px;
+    position:sticky;
+    top:0;
+    z-index:999;
+    border-bottom:1px solid #333;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#00d4ff;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    color:#ccc;
+    max-width:800px;
+    margin:auto;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.section{
+    padding:70px 0;
+}
+
+.section h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:#00d4ff;
+}
+
+.loan-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#111;
+    border:1px solid #333;
+    border-radius:15px;
+    padding:25px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border-color:#00d4ff;
+}
+
+.card h3{
+    color:#00d4ff;
+    margin-bottom:15px;
+}
+
+.card ul{
+    padding-left:20px;
+    margin-bottom:20px;
+}
+
+.card li{
+    margin-bottom:10px;
+}
+
+.btn{
+    display:inline-block;
+    background:#00d4ff;
+    color:#000;
+    padding:12px 25px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.btn:hover{
+    opacity:0.8;
+}
+
+.box{
+    background:#111;
+    padding:25px;
+    border-radius:15px;
+    margin-bottom:20px;
+    border:1px solid #333;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    border-top:1px solid #333;
+    color:#888;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<a href="#about">About</a>
+<a href="#steps">Các bước vay tiền</a>
+<a href="#faq">FAQ</a>
+<a href="#reviews">Đánh giá</a>
+<a href="#policy">Chính sách</a>
+<a href="#terms">Điều khoản</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Vay Tieu Dung</h1>
+<p>
+So sánh nhiều đơn vị cho vay uy tín, đăng ký online 24/7,
+xét duyệt nhanh và nhận tiền ngay trong ngày.
+</p>
+</section>
+
+<div class="container">
+
+<section class="section">
+<h2>Đơn vị cho vay nổi bật</h2>
+
+<div class="loan-grid">
+
+<div class="card">
+<h3>Creditify</h3>
+<ul>
+<li>Đăng ký hoàn toàn trực tuyến.</li>
+<li>Xét duyệt nhanh trong vài phút.</li>
+<li>Không cần gặp mặt.</li>
+<li>Giải ngân nhanh vào tài khoản.</li>
+</ul>
+<a href="#" class="btn">Đăng ký Creditify</a>
+</div>
+
+<div class="card">
+<h3>Binixo</h3>
+<ul>
+<li>Thủ tục đơn giản.</li>
+<li>Hỗ trợ khách hàng mới.</li>
+<li>Đăng ký mọi lúc 24/7.</li>
+<li>Quy trình tự động, nhanh chóng.</li>
+</ul>
+<a href="#" class="btn">Đăng ký Binixo</a>
+</div>
+
+<div class="card">
+<h3>Finpug</h3>
+<ul>
+<li>Đăng ký chỉ mất vài phút.</li>
+<li>Không cần giấy tờ phức tạp.</li>
+<li>Xử lý hồ sơ nhanh.</li>
+<li>Hỗ trợ trực tuyến tiện lợi.</li>
+</ul>
+<a href="#" class="btn">Đăng ký Finpug</a>
+</div>
+
+<div class="card">
+<h3>Credy</h3>
+<ul>
+<li>Giao diện đăng ký dễ sử dụng.</li>
+<li>Xét duyệt tự động.</li>
+<li>Tiết kiệm thời gian.</li>
+<li>Đăng ký online hoàn toàn.</li>
+</ul>
+<a href="#" class="btn">Đăng ký Credy</a>
+</div>
+
+<div class="card">
+<h3>Jeff</h3>
+<ul>
+<li>Quy trình đăng ký đơn giản.</li>
+<li>Hỗ trợ trực tuyến nhanh.</li>
+<li>Không cần đến quầy giao dịch.</li>
+<li>Tiện lợi trên điện thoại.</li>
+</ul>
+<a href="#" class="btn">Đăng ký Jeff</a>
+</div>
+
+<div class="card">
+<h3>Vaymeo</h3>
+<ul>
+<li>Đăng ký trực tuyến nhanh chóng.</li>
+<li>Thao tác đơn giản.</li>
+<li>Hỗ trợ khách hàng linh hoạt.</li>
+<li>Xử lý hồ sơ nhanh.</li>
+</ul>
+<a href="#" class="btn">Đăng ký Vaymeo</a>
+</div>
+
+</div>
+</section>
+
+<section id="about" class="section">
+<h2>About</h2>
+<div class="box">
+Website giúp người dùng tham khảo và so sánh các giải pháp vay trực tuyến từ nhiều đơn vị khác nhau để lựa chọn sản phẩm phù hợp với nhu cầu của mình.
+</div>
+</section>
+
+<section id="steps" class="section">
+<h2>Các bước vay tiền</h2>
+
+<div class="box">
+<h3>Bước 1</h3>
+<p>Chọn đơn vị cho vay phù hợp.</p>
+</div>
+
+<div class="box">
+<h3>Bước 2</h3>
+<p>Nhấn nút đăng ký và điền thông tin.</p>
+</div>
+
+<div class="box">
+<h3>Bước 3</h3>
+<p>Đơn vị cho vay tiến hành thẩm định hồ sơ.</p>
+</div>
+
+<div class="box">
+<h3>Bước 4</h3>
+<p>Nếu được phê duyệt, khoản vay sẽ được giải ngân theo quy định của đơn vị cho vay.</p>
+</div>
+
+</section>
+
+<section id="faq" class="section">
+<h2>Câu hỏi thường gặp</h2>
+
+<div class="box">
+<h3>Tôi có cần thế chấp tài sản không?</h3>
+<p>Điều này phụ thuộc vào chính sách của từng đơn vị cho vay.</p>
+</div>
+
+<div class="box">
+<h3>Tôi có thể đăng ký bằng điện thoại không?</h3>
+<p>Có, website hỗ trợ đầy đủ trên điện thoại.</p>
+</div>
+
+<div class="box">
+<h3>Mất bao lâu để có kết quả?</h3>
+<p>Thời gian xử lý tùy thuộc vào từng đơn vị cho vay.</p>
+</div>
+
+</section>
+
+<section id="reviews" class="section">
+<h2>Đánh giá khách hàng</h2>
+
+<div class="box">
+⭐⭐⭐⭐⭐ "Website dễ sử dụng và thao tác nhanh." - Minh Anh
+</div>
+
+<div class="box">
+⭐⭐⭐⭐⭐ "So sánh được nhiều đơn vị trong cùng một nơi." - Quốc Huy
+</div>
+
+<div class="box">
+⭐⭐⭐⭐⭐ "Giao diện đẹp và hoạt động tốt trên điện thoại." - Thanh Hà
+</div>
+
+</section>
+
+<section id="policy" class="section">
+<h2>Chính sách</h2>
+<div class="box">
+<p>
+Website chỉ cung cấp thông tin tham khảo và giới thiệu các đối tác tài chính.
+Quyết định phê duyệt khoản vay thuộc về từng đơn vị cho vay.
+Người dùng cần đọc kỹ điều kiện và chi phí trước khi đăng ký.
+</p>
+</div>
+</section>
+
+<section id="terms" class="section">
+<h2>Điều khoản</h2>
+<div class="box">
+<p>
+Khi sử dụng website, người dùng đồng ý với các điều khoản sử dụng và chính sách bảo mật của website.
+Website không phải là tổ chức tín dụng và không trực tiếp cấp khoản vay.
+</p>
+</div>
+</section>
+
+</div>
+
+<footer>
+© 2026 Vay Tiền Online - All Rights Reserved
+</footer>
+
+</body>
+</html>
